@@ -100,6 +100,10 @@ link:not(:last-child) {
   font-size: 50px;
 }
 
+.radio {
+  margin-left: 30px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -130,23 +134,97 @@ link:not(:last-child) {
   padding: 3rem 0 2rem;
 }
 
+.g {
+  color: gray;
+}
+
 .container {
   width: 60%;
   max-width: 1000px;
   margin: 0 auto;
-  border: 1px solid black;
+}
+
+.container > h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.container > input {
+  margin-bottom: 40px;
+}
+
+.card {
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.card-head {
+  text-align: center;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.card-content {
+  padding: 30px 20px;
+}
+
+.buy-now {
+  margin-top: 30px;
+}
+
+.card-sec-2 {
+  margin-bottom: 30px;
+}
+
+.card-sec-3 > h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .justify-between {
   justify-content: space-between;
 }
 
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-2 {
   margin-bottom: 2rem;
 }
 
+.feature {
+  display: flex;
+}
+
+.feature > i {
+  margin-right: 10px;
+}
+
 .section {
   padding: 2rem 0;
+}
+
+.contact-text {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.contact-text > h4 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.contact-text > p {
+  margin-bottom: 40px;
+}
+
+.col-30 .mb-2 > h4 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-btn {
+  padding: 10px;
+  border: 1px solid black;
 }
 
 .square-container {
