@@ -68,16 +68,8 @@ link:not(:last-child) {
 /* MAIN */
 .jumbotron {
   margin-bottom: 100px;
-  padding: 4rem 0;
+  padding: 0 4rem 4rem;
   background-color: lightblue;
-}
-
-.large-container {
-  position: relative;
-  top: 8.5rem;
-  width: 70%;
-  max-width: 1100px;
-  margin: 0 auto;
 }
 
 .large-container > h1 {
@@ -145,8 +137,18 @@ link:not(:last-child) {
 }
 
 .container > h2 {
-  font-size: 30px;
-  margin-bottom: 40px;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.container-text {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+  font-weight: 600;
+  margin: 30px 0 30px 0;
+  padding-right: 50px;
+  padding-bottom: 30px;
 }
 
 .container > input {
@@ -170,6 +172,11 @@ link:not(:last-child) {
   margin-top: 30px;
 }
 
+.buy-now > a {
+  color: blue;
+  text-decoration: underline;
+}
+
 .card-sec-2 {
   margin-bottom: 30px;
 }
@@ -181,6 +188,20 @@ link:not(:last-child) {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.last-card {
+  align-items: flex-start;
+  justify-content: space-between;
+  display: flex;
+}
+
+.card-sec-1 > h4 {
+  font-size: 1.5rem;
+}
+
+.last-card-paragraph {
+  margin-bottom: 3.5rem;
 }
 
 .mb-1 {
@@ -217,9 +238,31 @@ link:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.col-30 .mb-2 > h4 {
-  font-size: 30px;
+.col-30 > h4 {
+  font-size: 20px;
   margin-bottom: 30px;
+}
+
+.col-60 > h4 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.col-60 > a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.col-60 > h5 {
+  font-size: 42px;
+  color: rgb(80, 0, 0);
+}
+
+.trial > a {
+  margin-top: 20px;
+  padding: 20px;
+  color: black;
+  background-color: white;
 }
 
 .contact-btn {
@@ -248,4 +291,28 @@ footer {
   padding: 3rem 0;
   color: white;
   background-color: black;
+}
+
+.large-container {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.title-foot {
+  font-size: large;
+}
+
+.link-foot,
+a {
+  margin-top: 1rem;
+  color: white;
+}
+
+.content-footer-end {
+  padding-top: 3rem;
+  margin-top: 6rem;
+  border-top: 2px solid gray;
+  width: 8%;
+  color: gray;
 }
